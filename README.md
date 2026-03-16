@@ -1,6 +1,11 @@
-# ArchSecurityBar
-Security OSD bar for arch
-Troubleshooting SecurityBar
+# Arch SecurityBar
+
+Put the SecurityBar.sh script path in your hyprland.conf file as keybinding
+
+bind = SUPER, S, exec, ~/.config/quickshell/SecurityBar/SecurityBar.sh
+
+
+!!!! Troubleshooting SecurityBar
 If the Security Dashboard fails to launch or displays an error regarding missing modules, follow these steps to resolve the issue.
 
 1. Missing "Quickshell.Networking" Module
